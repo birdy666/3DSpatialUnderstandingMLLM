@@ -62,12 +62,6 @@ In Stage 1, we use a pretrained PointNet++ encoder from [MiKASA](https://birdy66
 ### Stage 2: Instruction Grounding with LoRA
 In Stage 2, we fine-tune the model to perform 3D visual grounding based on generated instructions. All parameters are frozen except for the LoRA (Low-Rank Adaptation) modules, which are trained to adapt the pretrained backbone to the grounding task. This enables efficient fine-tuning while preserving the pretrained knowledge. For more details, refer to our paper.
 
-### Script for training
-TBD
-
-## Evaluation
-TBD
-
 ## Citation
 ```
 @article{chang20243d,
